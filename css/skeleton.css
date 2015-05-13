@@ -165,7 +165,12 @@ a:hover {
 
 /* Ma buttons */
 
-#header nav ul li a.btn {
+}
+#header nav ul li {
+  display:inline-block;
+}
+
+ #header nav ul li a.btn {
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px; /* border radius */
@@ -175,6 +180,7 @@ a:hover {
   background:#fff;
   color:#009be8;
  }
+
  input[type="submit"]
 input[type="reset"]
 input[type="button"] 
@@ -223,7 +229,7 @@ select {
   color: #777;
   margin: 90%;
   width: 10%;
-  max-width: 100%;
+  max-width: 1 00%;
   display: block;
   margin-bottom: 20px;
 }
