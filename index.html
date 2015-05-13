@@ -13,11 +13,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- FONT–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
 <!-- CSS–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+
 
 <!-- Favicon––––––––––––––––––––––––––––––––––––––––––––––––––-->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -35,8 +37,8 @@
         <div class="ten columns">
           <nav>
             <ul>
-              <li><a href="#">Sign In</li>
-              <li><a href="#">Sign Up Now</li>
+              <li><a class="btn" href="#">Sign In</li></a>
+              <li><a class="btn" href="#">Sign Up Now</li></a>
             </ul>
           </nav>
         </div>
@@ -207,16 +209,29 @@
 <!-- Footer ================================================== -->
 
 <div id="footer">
-  <nav>
-    <ul>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Privacy Policy</a></li>
-      <li><a href="#">Terms</a></li>
-    </ul>
-    <img src="images/small_logo.png" />
-    <p>&copy; 2014. Jott.ly. All Rights Reserved.</p>
-  </nav>
+  <div id="container">
+  <div class="row">
+    <div class="eight columns">
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms</a></li>
+        </ul>
+      </nav>
+    </div>
+  
+  
+    <div class="two columns">
+      <img src="images/small_logo.png" alt="Jottly" />
+    </div>
+      
+    <div class="two columns"></div>
+      <p>&copy; 2014. Jott.ly. All Rights Reserved.</p>
+    </div>
+  </div>
+</div>
 </div>
 
 </body>
