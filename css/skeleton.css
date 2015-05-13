@@ -163,10 +163,75 @@ a {
 a:hover {
   color: #0FA0CE; }
 
+/* Ma buttons */
+
+#header nav ul li a.btn {
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px; /* border radius */
+  border:2px solid #fff;
+ }
+ #header nav ul li a.btn:hover {
+  background:#fff;
+  color:#009be8;
+ }
+ input[type="submit"]
+input[type="reset"]
+input[type="button"] 
+{
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #009ae8;
+  color: #fff;
+  font-size: 1.2em;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 0.82em 2.5em;
+  cursor: pointer;
+  margin: 0;
+}
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+  background:#0483c3;
+}
+.button:active,
+button:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active { }
+...
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+  border: 1px solid #ccc;
+  padding: 0.75em 1em;
+  outline: none;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  font: 1.2em "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #777;
+  margin: 90%;
+  width: 10%;
+  max-width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*.button,
+.button,
 button,
 input[type="submit"],
 input[type="reset"],
@@ -174,7 +239,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #555;
+  color: #fff;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -183,9 +248,8 @@ input[type="button"] {
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
-  background-color: transparent;
+  background-color: #009ae8;
   border-radius: 4px;
-  border: 1px solid #bbb;
   cursor: pointer;
   box-sizing: border-box; }
 .button:hover,
@@ -221,7 +285,7 @@ input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
   background-color: #1EAEDB;
-  border-color: #1EAEDB; }*/
+  border-color: #1EAEDB; }
 
 
 /* Forms
